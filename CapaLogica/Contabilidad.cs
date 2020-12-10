@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CapaLogica
 {
-    class Contabilidad
+    public class Contabilidad
     {
         public double getSaldos(double saldoInicial)
         {
@@ -15,7 +15,7 @@ namespace CapaLogica
 
         public string Saludos(string nombre="Juan Perez") //parametros opcionales 
         {
-            return "Hola" + nombre + ",Bienvenido al sistema de Contabilidad!!!";
+            return "Hola " + nombre + ", Bienvenido al sistema de Contabilidad!!!";
         }
 
     }

@@ -38,6 +38,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.txtMensaje = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtNumMes = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtNombreMes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -96,7 +100,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(118, 206);
+            this.label4.Location = new System.Drawing.Point(118, 261);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 6;
@@ -105,7 +109,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(118, 251);
+            this.label5.Location = new System.Drawing.Point(115, 305);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 7;
@@ -113,23 +117,59 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(261, 199);
+            this.txtResultado.Location = new System.Drawing.Point(261, 254);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(288, 20);
             this.txtResultado.TabIndex = 8;
             // 
             // txtMensaje
             // 
-            this.txtMensaje.Location = new System.Drawing.Point(261, 244);
+            this.txtMensaje.Location = new System.Drawing.Point(261, 298);
             this.txtMensaje.Name = "txtMensaje";
             this.txtMensaje.Size = new System.Drawing.Size(288, 20);
             this.txtMensaje.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(118, 216);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(122, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Ingrese numero del mes ";
+            // 
+            // txtNumMes
+            // 
+            this.txtNumMes.Location = new System.Drawing.Point(261, 216);
+            this.txtNumMes.Name = "txtNumMes";
+            this.txtNumMes.Size = new System.Drawing.Size(274, 20);
+            this.txtNumMes.TabIndex = 11;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(115, 336);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 13);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "El mes es";
+            // 
+            // txtNombreMes
+            // 
+            this.txtNombreMes.Location = new System.Drawing.Point(261, 336);
+            this.txtNombreMes.Name = "txtNombreMes";
+            this.txtNombreMes.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreMes.TabIndex = 13;
             // 
             // FrmIU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtNombreMes);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtNumMes);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtMensaje);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.label5);
@@ -159,5 +199,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.TextBox txtMensaje;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtNumMes;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtNombreMes;
     }
 }

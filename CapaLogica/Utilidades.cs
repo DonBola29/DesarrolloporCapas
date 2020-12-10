@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CapaLogica
 {
-    class Utilidades
+   public class Utilidades
     {
         public static string getNombreDelMes(int mes)
         {
