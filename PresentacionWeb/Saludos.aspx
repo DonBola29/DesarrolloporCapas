@@ -29,7 +29,9 @@
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td>Ingresa tu sueldo </td>
@@ -50,15 +52,21 @@
                 </td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
+                <td></td>
                 <td>
                     <asp:Label ID="lblMes" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr>
+                <td>Ingresa la fecha </td>
+                <td>
+                    <asp:TextBox ID="txtfecha" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+                    <asp:Label ID="lblMensajeFecha" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr>
